@@ -17,7 +17,10 @@ BuyBot.launch = function(){
             });
 
             BuyBot.isLoaded = 1;
+            console.log('init');
         }
+
+        console.log('test');
 
         if(CCSE.ConfirmGameVersion(BuyBot.name, BuyBot.version, BuyBot.GameVersion)) BuyBot.init();
 }
